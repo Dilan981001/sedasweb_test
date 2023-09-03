@@ -1,0 +1,57 @@
+.background-image {
+    background-image: url('../../img/back.jpg');
+    background-size: cover;
+    
+    
+  }
+  .intro1{
+    display: flex;
+    height: 100vh;
+    
+   
+}
+
+.cardev {
+  width: 400px;
+  height: 430px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 4px white;
+  margin-top: 150px;
+  margin-left: 350px;
+}
+
+.card-imageev {
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  margin-left: 100px;
+  margin-top: 45px;
+  
+  
+}
+
+.card-content {
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+  
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.card-description {
+  font-size: 14px;
+  color:white;
+}
+.i-name1{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-left: 50px;
+}

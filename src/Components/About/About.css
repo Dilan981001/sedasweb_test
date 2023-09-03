@@ -1,0 +1,110 @@
+.background-image {
+    background-image: url('../../img/back.jpg');
+    background-size: cover;
+    
+  }
+  .intro1{
+    display: flex;
+    height: 100vh;
+  
+   
+}
+.i-left{
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap:2rem;
+    color: white;
+    margin-left: 10px;
+}
+
+.i-name1{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 30px;
+}
+.i-name2{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.i-right{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex: 1;
+    gap:2rem;
+    color: white;
+    margin-top: 25px;
+}
+.i-name1>:nth-child(1){
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+.i-name1>:nth-child(2){
+    color: white;
+    font-size: 25px;
+}
+.i-name2>:nth-child(1){
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+.i-name2>:nth-child(2){
+    color: white;
+    font-size: 35px;
+    margin-bottom: 80px;
+}
+.i-name2>:nth-child(3){
+    color: white;
+    margin-bottom: 50px;
+    font-size: 20px;
+    margin-bottom: 80px;
+    gap: 2rem;
+}
+.i-button2{
+    width: 100px;
+    align-items: center;
+
+}
+
+.img2{
+    
+    width: 50px;
+    height: 50px;
+    
+    margin-left: 10px;
+   
+}
+@media screen and (max-width: 480px){
+    .intro1{
+        flex-direction: row;
+    }
+    .i-right{
+        transform: scale(0.8);
+        left: -3rem;
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
