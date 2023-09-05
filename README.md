@@ -14,5 +14,4 @@ The website adapts seamlessly to various screen sizes, from desktop monitors to 
 
 
 
-
 SEDS Sabra is more than just a website; it's a platform for fostering interest and knowledge in space exploration. It's a hub for enthusiasts, learners, and professionals to come together, share insights, and contribute to the exciting field of space exploration.
