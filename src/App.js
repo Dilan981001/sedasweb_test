@@ -1,26 +1,23 @@
-import Navbar from './Components/Navbar/Navbar'
-import Intro from './Components/Intro/Intro'
-import About from './Components/About/About'
-import Division from './Components/Divisions/Division'
-import Events from './Components/Events/Events'
-import Projects from './Components/Projects/Projects'
-import Footer from './Components/Footer/Footer'
+import Exboard from "./Components/Exboard/Exborad.jsx"
+import {  Route, BrowserRouter, Routes } from 'react-router-dom';
+import Home from "./Components/Home/Home.jsx"
 import './App.css'
+import ContactUs from './Components/ContactUs/ContactUs.jsx'
+
 
 function App() {
   return (
     <div classname="App">
-      <Navbar/>
-      <Intro/>
-      <About/>
-      <Division/>
-      <Events/>
-      <Projects/>
-      <Footer/>
+      <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home/>} />
+        <Route path='/contact' element={<ContactUs/>} />
+        <Route path='/exboard' element={<Exboard/>}/ >
+      </Routes>
+      </BrowserRouter>
 
+  </div>
 
-
-    </div>
   );
 }
 

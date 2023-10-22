@@ -39,30 +39,37 @@
     color: var(--orange);
 }
 
+
 .n-button{
     flex: 2;
     
 }
 
 
-
-.background-color {
+.bg{
     background-color: black;
+    color: aliceblue !important;
 }
-
+/* styles.css */
+.white-link {
+    color: white !important; /* Use !important to override Bootstrap's styles */
+  }
+  
 .img1{
     
-    width: 1px;
-    scale: 0.15;
-    margin-left: 10px;
-   
+height: 1px;
+width: 1px;
+scale: 0.15;
 }
 
-@media screen and (max-width: 480px){
-    .n-list{
-        display: none;
-    }
-    .n-right{
-        display: none;
-    }
+.txt{
+    color: white;
+    padding-right: 30px;
+  }
+.basic-navbar-nav{
+    color: white;
   } 
+  Nav.Link {
+    /* Set the font color to white */
+    color: white !important;
+  }
